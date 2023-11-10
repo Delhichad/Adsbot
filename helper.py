@@ -24,5 +24,5 @@ def get_current_time():
 
 
 def shorten_url(url):
-    site_url = f"https://vnshortener.com/api?api=c645b502da5854a537e14050d4364844a244f348&url={url}&format=text"
+    site_url = f"https://vnshortener.com/api?api=50795469e9934d0730332635c6d353562413be76&url={url}&format=text"
     return str(requests.get(site_url).text)
